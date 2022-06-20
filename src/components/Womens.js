@@ -22,7 +22,7 @@ const Womens = () => {
             className="card-img-top"
             alt="NO Image Preview"
           />
-          <div className="card-body">
+          <div className="card-body" style={{ marginLeft: "20px" }}>
             <h5 className="card-title">{value.name}</h5>
             <h6 className="card-title">{value.price}</h6>
             <p clas className="card-text">
@@ -46,7 +46,7 @@ const Womens = () => {
           src="https://img.mytheresa.com/media/static/raw/cms/l/WW_HP_2022_CW24/BIG_EN/Valentino_Act_Big_Desktop_1_x2_20220613155108.jpg?imwidth=1180&imdensity=1"
         />
       </div>
-      <div className="container my-3" style={{ gap: "20px" }}>
+      <div className="container my-3">
         <div className="row">{arr}</div>
       </div>
     </div>

@@ -1,6 +1,7 @@
 .navleft {
   font-size: 14px;
   display: flex;
+  gap: 20px;
 }
 .navleft > p {
   margin-left: 20px;
@@ -37,13 +38,13 @@
 }
 .menus {
   display: flex;
-justify-content: space-evenly;
+  justify-content: space-evenly;
 }
-.inputs{
+.inputs {
   width: 180px;
   height: 20px;
   margin-top: 10px;
 }
-.menutop{
-margin-top: 40px;
+.menutop {
+  margin-top: 40px;
 }

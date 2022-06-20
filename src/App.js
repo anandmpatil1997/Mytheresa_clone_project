@@ -17,6 +17,7 @@ export default function App() {
         <Route path="/women" element={<Womens />} />
         <Route path="/men" element={<Men />} />
         <Route path="/kids" element={<Kids />} />
+        <Route path="/" element={<Homepage />} />
       </Routes>
       <Footer />
     </div>

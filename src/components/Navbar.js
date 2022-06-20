@@ -5,14 +5,14 @@ const Navbar = () => {
     <div className="navi">
       <div className="navtop">
         <div className="navleft">
-          <Link to="/women">
+          <Link to="/women" style={{ color: "black", fontWeight: "700" }}>
             {" "}
             <p>WOMEN</p>
           </Link>
-          <Link to="/men">
+          <Link to="/men" style={{ color: "black", fontWeight: "700" }}>
             <p>MEN</p>
           </Link>
-          <Link to="/kids">
+          <Link to="/kids" style={{ color: "black", fontWeight: "700" }}>
             {" "}
             <p>KIDS</p>
           </Link>
@@ -26,11 +26,14 @@ const Navbar = () => {
       </div>
       <div className="logo">
         <div></div>
-        <img
-          className="logoimg"
-          alt="NO image"
-          src="https://www.mytheresa.com/skin/frontend/mytheresa/default/images/logo.png?v=20220614T171237"
-        />
+        <Link to="/">
+          {" "}
+          <img
+            className="logoimg"
+            alt="NO image"
+            src="https://www.mytheresa.com/skin/frontend/mytheresa/default/images/logo.png?v=20220614T171237"
+          />
+        </Link>
         <p>
           SHOPPING BAG{" "}
           <svg
