@@ -1,0 +1,49 @@
+.navleft {
+  font-size: 14px;
+  display: flex;
+}
+.navleft > p {
+  margin-left: 20px;
+  text-align: center;
+  vertical-align: center;
+  cursor: pointer;
+}
+.navleft > p:hover {
+  background-color: rgb(238, 238, 238);
+}
+.navtop {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.navright {
+  display: flex;
+  font-weight: bold;
+  font-size: 11px;
+  color: rgb(107, 107, 107);
+}
+.navright > p {
+  margin-right: 20px;
+}
+.logoimg {
+  width: 300px;
+}
+.logo {
+  margin: auto;
+  display: flex;
+  margin-top: 30px;
+  justify-content: space-between;
+  margin-left: 80px;
+}
+.menus {
+  display: flex;
+justify-content: space-evenly;
+}
+.inputs{
+  width: 180px;
+  height: 20px;
+  margin-top: 10px;
+}
+.menutop{
+margin-top: 40px;
+}
