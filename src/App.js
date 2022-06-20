@@ -13,7 +13,6 @@ export default function App() {
   return (
     <div className="App">
       <Navbar />
-
       <Routes>
         <Route path="/women" element={<Womens />} />
         <Route path="/men" element={<Men />} />

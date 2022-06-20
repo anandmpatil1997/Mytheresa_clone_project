@@ -42,6 +42,12 @@ const Men = () => {
 
   return (
     <div>
+      <div style={{ marginLeft: "180px" }}>
+        <img
+          style={{ width: "85%", height: "500px" }}
+          src="https://img.mytheresa.com/media/static/raw/cms/l/MW_HP_CW25_2022/BIG1_EN/BIG_1_DESKTOP_1__2x_20220617123059.jpg?imwidth=1180&imdensity=1"
+        />
+      </div>
       <div className="container my-3">
         <div className="row">{arr}</div>
       </div>
